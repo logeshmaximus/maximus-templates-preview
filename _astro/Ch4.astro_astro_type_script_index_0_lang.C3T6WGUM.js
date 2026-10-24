@@ -1,0 +1,1 @@
+import{t as e}from"./autocycle.D-2G3Fbp.js";document.querySelectorAll(`[data-c4-tri]`).forEach(t=>{let n=t.querySelectorAll(`[data-c4-corner]`),r=t.querySelectorAll(`[data-c4-node]`);e({root:t,count:n.length,duration:3e3,onStep:e=>{n.forEach((t,n)=>t.classList.toggle(`is-on`,n===e)),r.forEach((t,n)=>t.classList.toggle(`is-on`,n===e))}})});

@@ -1,0 +1,1 @@
+import{t as e}from"./autocycle.D-2G3Fbp.js";document.querySelectorAll(`[data-ac]`).forEach(t=>{let n=t.querySelectorAll(`[data-ac-chip]`),r=t.querySelectorAll(`[data-ac-row]`);e({root:t,count:n.length,duration:3500,onStep:e=>{n.forEach((t,n)=>t.classList.toggle(`is-on`,n===e)),r.forEach((t,n)=>t.classList.toggle(`is-lit`,n===e))}})});

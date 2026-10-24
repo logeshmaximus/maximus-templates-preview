@@ -1,0 +1,1 @@
+import"./pricing-switch.CQUQCmtX.js";var e=document.querySelector(`.pr`);e?.querySelectorAll(`[data-bill]`).forEach(t=>t.addEventListener(`click`,()=>{e.dataset.billing=t.dataset.bill,e.querySelectorAll(`[data-bill]`).forEach(e=>{e.classList.toggle(`is-on`,e===t),e.setAttribute(`aria-pressed`,String(e===t))})}));

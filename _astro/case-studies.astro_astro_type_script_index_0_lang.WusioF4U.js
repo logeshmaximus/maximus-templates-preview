@@ -1,0 +1,1 @@
+import"./service-motion.BC8aqXaG.js";var e=[...document.querySelectorAll(`[data-filter]`)],t=[...document.querySelectorAll(`[data-tag]`)];e.forEach(n=>n.addEventListener(`click`,()=>{let r=n.dataset.filter;e.forEach(e=>e.setAttribute(`aria-pressed`,String(e===n))),t.forEach(e=>{e.hidden=r!==`all`&&e.dataset.tag!==r})}));
