@@ -1,0 +1,1 @@
+import"./service-motion.BC8aqXaG.js";document.querySelectorAll(`.t1v3 .svc-faq details`).forEach((e,t,n)=>e.addEventListener(`toggle`,()=>{e.open&&n.forEach(t=>{t!==e&&(t.open=!1)})}));
