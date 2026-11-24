@@ -1,0 +1,1 @@
+import"./service-motion.S0lJCNK8.js";
