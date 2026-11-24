@@ -1,0 +1,1 @@
+import"./service-motion.BC8aqXaG.js";import"./shell-t2.s6Jf5WAb.js";import"./t2v1.BreUCj6k.js";if(!/(^|\.)maximuslabs\.ai$/.test(location.hostname)){let e=document.querySelector(`.t3t-shell`),t=e?.querySelector(`[data-t3-still]`);e&&t&&(e.classList.add(`is-still`),t.hidden=!1)}
